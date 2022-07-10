@@ -69,7 +69,7 @@ exports.getPrice = async (poolAddress, inputAmount) => {
 
 async function main() {
     const { getPrice } = require('./GetPrice')
-    const poolAddress = address.pool.WETH_USDT
+    const poolAddress = address.pool.WETHUSDT
 
     const price = await getPrice(poolAddress, 1)
   }

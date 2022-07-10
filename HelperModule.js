@@ -14,8 +14,8 @@ exports.getPoolImmutables = async (poolContract) => {
       token1: token1,
       fee: fee
     }
-    console.log("token0: " + immutables.token0)
-    console.log("token1: " + immutables.token1)
+    console.log("Token0 address: " + immutables.token0)
+    console.log("Token1 address: " + immutables.token1)
     console.log("fee: " + immutables.fee)
     return immutables
   }
